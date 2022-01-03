@@ -51,10 +51,18 @@ This program uses five different databases to manage and store essential data in
 Structure:
 
 Dates:
-	INDEX		|	 DATE		|
+	INDEX		|	  DATE		|
 
 Faculty:
-	INDEX		|	FACULTY	|
+	INDEX		|        FACULTY	|
 
 Reservations:
-    INDEX	|   NAME	|   ROOM	|   DATE	|  SEATS	| TIME	|
+	INDEX		|   	  NAME		|   	  ROOM		|	  DATE		|	  SEATS		| 	TIMESTAMP	|
+	
+Room:
+	INDEX		|	  ROOM		|	  SEATS		|
+	
+Waitlist:
+	INDEX		|	  NAME		|	  DATE		|	  SEATS		|	TIMESTAMP	|
+	
+The dates, faculty, and room databases must be manually filled with data through NetBeans or some other database modification application before starting the program. The reservation and waitlist databases are generated based on the existing entries in the dates, faculty, and room databases along with the inputs provided by the user through the program. 
