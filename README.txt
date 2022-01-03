@@ -19,7 +19,7 @@ To install Apache Derby:
 	2) Scroll to the "Java 8 and Higher" Section of the page
 	3) Click on 10.4.2.0
 	4) Click on one of the first two links under the "Distributions section", depending on what OS you have. The name of the file should be something like "db-derby-10.14.2.0-bin"
-	5) Extract the zip into the git directory you pulled the project into.
+	5) Extract the zip into the directory you pulled the project into.
 
 Program setup:
 	1) Open Netbeans and open the RoomScheduler class project
