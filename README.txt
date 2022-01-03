@@ -46,3 +46,15 @@ The final page, "Waitlist Status," displays every reservation that has been wait
 MANAGING DATABASES:
 ================================================================
 
+This program uses five different databases to manage and store essential data in the room scheduler: dates, faculty, reservations, room, and waitlist.
+
+Structure:
+
+Dates:
+	INDEX		|	 DATE		|
+
+Faculty:
+	INDEX		|	FACULTY	|
+
+Reservations:
+    INDEX	|   NAME	|   ROOM	|   DATE	|  SEATS	| TIME	|
